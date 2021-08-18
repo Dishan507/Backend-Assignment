@@ -8,9 +8,12 @@ Customers of a restaurant can use the mobile application to order food. This mob
 	npm i express <br/>
 	npm install express body-parser <br/><br/>
 3)Then for generating documentation page, I used swagger. Run below command to install swagger <br/>
-	npm i swagger-jsdoc swagger-ui-express <br/><br/>
+	npm i swagger-jsdoc swagger-ui-express <br/>
+	document page url: http://localhost:8080/api/docs <br/><br/>
 4)You can run app.js to see the endpoints working properly or not by running app.js. Run below command <br/>
-	node app.js <br/><br/>
+	node app.js <br/>
+	get url: http://localhost:8080/api/orders <br/>
+	post url: http://localhost:8080/api/order <br/><br/>
 5)Then for the unit testing, I used Mocha and Chai. Follow below steps to install and setup Mocha and Chai <br/>  	
 	npm i mocha chai <br/>
 	npm install request <br/>
