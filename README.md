@@ -2,8 +2,8 @@
 Customers of a restaurant can use the mobile application to order food. This mobile application uses a REST API backend to create orders. After  an order is created, a job is queued by the backend to process the order. The mobile application has a view to listing all the orders being placed
 
 # Steps to run the project
-1)Install node js.
-2)Open the command prompt and navigate to the project directory. Then run below commands.
+1)Install node js  <br/>
+2)Open the command prompt and navigate to the project directory. Then run below commands  <br/>
 	npm init
 	npm i express
 	npm install express body-parser
